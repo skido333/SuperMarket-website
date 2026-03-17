@@ -40,7 +40,7 @@ padding:10px;
 .products{
 display:flex;
 gap:20px;
-}
+background-color:#2872A1;
 
 .product{
 border:1px solid #ccc;
@@ -71,6 +71,7 @@ display:flex;
 justify-content:center;
 gap:30px;
 flex-wrap:wrap;
+background-color:#2872A1;
 }
 
 .product{
