@@ -123,6 +123,10 @@ color:white;
 text-decoration:none;
 border-radius:5px;
 }
+.about-image img:hover{
+transform:scale(1.05);
+transition:0.3s;
+}
 
 .btn:hover{
 background:black;
@@ -135,6 +139,13 @@ height:300px;
 object-fit:cover;
 border-radius:10px;
 box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+.about-container{
+margin-top:20px;
+}
+
+.about-text p{
+text-align:justify;
 }
 
 
