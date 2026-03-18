@@ -96,6 +96,7 @@ border-radius:8px;
 
 /* Responsive Design */
 @media (max-width:600px){
+}
 
 nav{
 display:block;
@@ -109,6 +110,7 @@ margin:5px;
 .products{
 flex-direction:column;
 align-items:center;
+}
 }
 .about-section{
 padding:50px;
@@ -163,7 +165,7 @@ border-radius:5px;
 background:black;
 }
 
-}
+
 /* About Image with Text Overlay */
 .about-image{
 position:relative;
