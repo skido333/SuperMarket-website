@@ -164,3 +164,45 @@ background:black;
 }
 
 }
+/* About Image with Text Overlay */
+.about-image{
+position:relative;
+width:400px;
+height:300px;
+background-image:url("market.jpg");
+background-size:cover;
+background-position:center;
+border-radius:10px;
+overflow:hidden;
+}
+
+/* Overlay (dark transparent layer) */
+.about-image::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.5);
+}
+
+/* Text on image */
+.about-overlay{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+color:white;
+text-align:center;
+z-index:1;
+}
+
+.about-overlay h2{
+font-size:24px;
+margin-bottom:10px;
+}
+
+.about-overlay p{
+font-size:16px;
+}
