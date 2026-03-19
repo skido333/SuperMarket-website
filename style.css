@@ -118,7 +118,6 @@ padding:20px;
 }
 
 .product{
-background-image: url("Pbanner.jpg");
 border:1px solid #ccc;
 padding:15px;
 width:220px;
@@ -128,6 +127,20 @@ box-shadow:0 4px 10px rgba(0,0,0,0.1);
 background:#5B0E14;
 color:white;
 transition:0.3s;
+}
+
+/* ================= PRODUCT BANNER ================= */
+.product-banner{
+background-image: url("Pbanner.jpg");
+background-size: cover;
+background-position: center;
+height: 300px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
 }
 
 .product:hover{
