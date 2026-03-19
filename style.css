@@ -195,6 +195,19 @@ display:block;
 margin:5px;
 }
 
+@media (max-width:900px){
+.categories{
+grid-template-columns:repeat(2, 1fr);
+}
+}
+
+@media (max-width:500px){
+.categories{
+grid-template-columns:1fr;
+}
+}
+
+
 .products{
 flex-direction:column;
 align-items:center;
@@ -247,9 +260,11 @@ color:yellow;
 /* CATEGORY GRID */
 .categories{
 display:grid;
-grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+grid-template-columns:repeat(4, 1fr);
 gap:20px;
 padding:30px;
+max-width:1100px;
+margin:auto;
 }
 
 /* EACH CATEGORY CARD */
@@ -258,11 +273,12 @@ position:relative;
 overflow:hidden;
 border-radius:10px;
 box-shadow:0 4px 10px rgba(0,0,0,0.1);
+height:200px;
 }
 
 .category img{
-max-width:200%;
-height:auto;
+max-width:100%;
+height:180;
 object-fit:cover;
 transition:0.4s;
 }
