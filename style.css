@@ -108,7 +108,7 @@ font-size:12px;
 
 /* ================= PRODUCTS ================= */
 .products{
-background-image: url("pbanner.jpg");
+background-image: url("Pbanner.jpg");
 display:flex;
 justify-content:center;
 gap:30px;
