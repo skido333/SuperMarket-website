@@ -133,6 +133,7 @@ transform:translateY(-5px);
 }
 
 .product img{
+background-image: url("pbanner.jpg");
 width:100%;
 height:150px;
 object-fit:cover;
