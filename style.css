@@ -261,8 +261,8 @@ box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
 
 .category img{
-width:50%;
-height:100px;
+max-width:200%;
+height:auto;
 object-fit:cover;
 transition:0.4s;
 }
