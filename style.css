@@ -205,4 +205,103 @@ flex-direction:column;
 text-align:center;
 }
 
+/* TOP HEADER */
+.top-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 20px;
+background:white;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo{
+color:#2872A1;
+}
+
+.search-bar{
+padding:8px;
+width:250px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+/* NAVIGATION */
+nav{
+background:black;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+/* CATEGORY GRID */
+.categories{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+gap:20px;
+padding:30px;
+}
+
+/* EACH CATEGORY CARD */
+.category{
+position:relative;
+overflow:hidden;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.category img{
+width:100%;
+height:200px;
+object-fit:cover;
+transition:0.4s;
+}
+
+/* HOVER EFFECT */
+.category:hover img{
+transform:scale(1.1);
+}
+
+/* TEXT ON IMAGE */
+.category h3{
+position:absolute;
+top:10px;
+left:10px;
+color:white;
+background:rgba(0,0,0,0.6);
+padding:5px 10px;
+border-radius:5px;
+}
+
+/* BUTTON */
+.category a{
+position:absolute;
+bottom:10px;
+left:10px;
+background:#2872A1;
+color:white;
+padding:5px 10px;
+text-decoration:none;
+border-radius:5px;
+font-size:14px;
+}
+
+/* FOOTER */
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:10px;
+}
+
 }
