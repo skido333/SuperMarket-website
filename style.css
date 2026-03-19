@@ -37,7 +37,7 @@ border-radius:5px;
 
 /* ================= NAVIGATION ================= */
 nav{
-background:black;
+background:red;
 padding:10px;
 text-align:center;
 }
@@ -68,7 +68,7 @@ position:relative;
 overflow:hidden;
 border-radius:10px;
 box-shadow:0 4px 10px rgba(0,0,0,0.1);
-height:160px; /* FIXED SIZE */
+height:220px; /* FIXED SIZE */
 cursor:pointer;
 }
 
@@ -215,7 +215,7 @@ background:black;
 
 /* ================= FOOTER ================= */
 footer{
-background:black;
+background:red;
 color:white;
 text-align:center;
 padding:10px;
