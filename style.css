@@ -435,34 +435,30 @@ overflow:hidden;
 box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
 
-
 .contact-container{
 display:flex;
 gap:30px;
-justify-content:center;
 align-items:flex-start;
-flex-wrap:wrap;
+justify-content:center;
 }
 
-.contact-form{
-flex:1;
-min-width:300px;
+.contact-form,
+.contact-map{
+width:50%;
 }
 
 .contact-map{
-flex:1;
-min-width:300px;
 border-radius:10px;
 overflow:hidden;
 box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* Form styling */
+/* FORM */
 .contact-form input,
 .contact-form textarea{
 width:100%;
 padding:10px;
-margin-top:5px;
+margin:10px 0;
 border:1px solid #ccc;
 border-radius:5px;
 }
@@ -478,4 +474,15 @@ cursor:pointer;
 
 .contact-form button:hover{
 background:black;
+}
+
+@media (max-width:700px){
+.contact-container{
+flex-direction:column;
+}
+
+.contact-form,
+.contact-map{
+width:100%;
+}
 }
